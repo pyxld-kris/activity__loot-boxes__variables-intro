@@ -1,6 +1,6 @@
 # DEV LAUNCHERS ACTIVITY
 
-### Feeding A Virtual Pet!
+### Filling A Treasure Chest!
 
 ---
 
