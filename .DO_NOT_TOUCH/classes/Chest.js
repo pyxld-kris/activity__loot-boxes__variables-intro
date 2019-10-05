@@ -38,6 +38,19 @@ export default class Chest extends Phaser.GameObjects.Sprite {
 
     this.anims.play("chest-closed", true);
 
+    // Slight bounce animation, start tween
+    setInterval(() => {
+      scene.tweens.add({
+        targets: this,
+        y: y - 3,
+        duration: 200,
+        ease: "Power2",
+        yoyo: true,
+        repeat: false,
+        delay: 1
+      });
+    }, 2000);
+
     // Make sure the scene calls this object's update function every frame
     this.updateListener = scene.events.on("update", (time, delta) => {
       this.update(time, delta);
