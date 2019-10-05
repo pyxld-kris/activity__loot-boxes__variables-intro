@@ -1,7 +1,7 @@
 /**** WELCOME! *********************************************/
 /**
- * GOAL: Change the variable NUM_FOODS in order to feed the pet 
- * enough to fill it up. Your pet wants 3 pieces of food right now!
+ * GOAL: Change the 'chestContents' variable to put whatever 
+ * you want in your chest, then click it to win your prize!
  * 
  * ----------------------------------------------------------
  * After making a change: save this file, then press the refresh
