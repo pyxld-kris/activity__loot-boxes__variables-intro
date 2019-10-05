@@ -13,7 +13,7 @@
 
 // Set this variable to whatever you want to have inside 
 // the chest!
-var chestContents = "A ball";
+var chestContents = "NOTHING";
 
 /**** GOODBYE! ************************************************/
 /**** Stop Modifying Here! (Unless you want to experiment!) ***/
@@ -31,8 +31,5 @@ var chestContents = "A ball";
 /**//* eslint-disable */ // Stops codesandbox from giving us annoying errors
 /** The following code helps our activity work on a slightly deeper level */
 let scene = this; // Setting this variable for readability
-
-
 scene.chestContents = chestContents;
-
 /* eslint-enable */
